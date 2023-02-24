@@ -14,3 +14,9 @@ Examples
 If any input is `""` or `None`, return `"Invalid Operation"`.
 
 [Start Problem](https://replit.com/team/whs-spring-2023/Adding-Numbers)
+   if x == "" or  y == "":
+        return "Invalid Operation" 
+        
+    result = int(x) + int(y)
+    result = str(result)
+    return result    def add(x, y):
